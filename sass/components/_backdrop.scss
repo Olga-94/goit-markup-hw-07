@@ -1,4 +1,4 @@
-.modal-window  {
+.backdrop  {
     position: fixed;
     left: 0;
     top: 0;
@@ -7,7 +7,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   transition: all 500ms linear;
 
-    .backdrop.is-hidden  & {
+    &.is-hidden   {
     transform: scale(0) rotateY(-180deg);
     transform: rotateX (0);
   }
