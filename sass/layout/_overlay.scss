@@ -10,7 +10,7 @@
     transition: transform 250ms linear;
     transform: translateY(100%);
   
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;

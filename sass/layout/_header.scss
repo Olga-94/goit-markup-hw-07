@@ -26,7 +26,7 @@
      
     &:focus,
     &:hover {
-      color: var(--accent-color);
+      color: $accent-color;
     }
   }
 
@@ -75,7 +75,7 @@
     fill: #757575;
     .header-address-link:hover &, 
     .header-address-link:focus & {
-       fill: var(--accent-color);
+       fill: $accent-color;
     }
   }
 
@@ -90,23 +90,23 @@
  
      &:focus,
      &:hover {
-       color: var(--accent-color);
+       color: $accent-color;
      }
   }
    
    .footer-list-link:hover,
    .footer-list-link:hover
     {
-    color: var(--accent-color);
+    color: $accent-color;
   } 
   
   .buttons-list-item:hover,
   .buttons-list-item:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   color: #ffffff;}
 
   .current {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   
